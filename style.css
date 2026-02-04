@@ -8,10 +8,11 @@
 /* Font e colori */
 body {
     font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #fff;
-    color: #222;
+    background-color: #f4f8fb; /* azzurro molto chiaro */
+    color: #1f2d3d;
     line-height: 1.6;
 }
+
 
 /* Header */
 header {
@@ -28,12 +29,13 @@ header {
 }
 
 .profile-photo {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #444;
+    border: 3px solid #1e88e5; /* blu elegante */
 }
+
 
 .header-text h1 {
     font-size: 2em;
@@ -62,8 +64,9 @@ section {
 section h2 {
     font-size: 1.6em;
     margin-bottom: 15px;
-    color: #333;
+    color: #1e88e5; /* blu sanitario */
 }
+
 
 /* Paragrafi */
 p {
@@ -83,14 +86,15 @@ ul li {
 
 /* Link */
 a {
-    color: #0073e6;
+    color: #1e88e5;
     text-decoration: none;
 }
 
 a:hover {
-    color: #005bb5;
+    color: #1565c0;
     text-decoration: underline;
 }
+
 
 /* Pubblicazioni */
 .pub-description {
@@ -108,9 +112,13 @@ a:hover {
     }
 
     .profile-photo {
-        width: 100px;
-        height: 100px;
-    }
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1e88e5; /* blu elegante */
+}
+
 }
 
 .map-container {
