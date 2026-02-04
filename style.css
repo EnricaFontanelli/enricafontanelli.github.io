@@ -1,14 +1,22 @@
-body {
-    font-family: "Inter", sans-serif;
+/* Reset base */
+* {
     margin: 0;
     padding: 0;
-    background: #fff;
-    color: #222;
+    box-sizing: border-box;
 }
 
+/* Font e colori */
+body {
+    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
 header {
     border-bottom: 1px solid #eee;
-    padding: 30px 20px;
+    padding: 40px 20px;
 }
 
 .header-container {
@@ -16,60 +24,29 @@ header {
     margin: auto;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 .profile-photo {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #444;
 }
 
-header h1 {
-    font-size: 1.8em;
-    margin: 0;
+.header-text h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
 }
 
-header p {
-    margin: 5px 0 0 0;
+.header-text p {
     font-size: 1em;
     color: #555;
 }
 
+/* Main container */
 main {
     max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
-}
+    ma
 
-section {
-    margin-bottom: 40px;
-}
-
-section h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #444;
-    padding-bottom: 5px;
-}
-
-ul {
-    padding: 0;
-    list-style: none;
-}
-
-ul li {
-    margin-bottom: 12px;
-}
-
-a {
-    color: #0073e6;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #005bb5;
-}
